@@ -70,8 +70,6 @@ void loop()
     Serial.println(statusCode);
     Serial.println("");
     Serial.println("Respuesta MongoDB -> " +postPulsoCardiaco);
-    /*Serial.print("postPulsoCardiaco body from server: ");
-    Serial.println(postPulsoCardiaco);*/
     Serial.println("");
 
     postPulsoCardiaco = "";
